@@ -124,3 +124,5 @@ LIMIT 10;
 ## 🎨 Visualization Canvas & Deliverables
 - **Dashboard Stack:** Built comprehensive, interactive geographical and categorical scatter matrices within **Tableau**.
 - **Deliverable Target:** Standardized distribution colors and layout alignments to allow C-level executives to dynamically map ingredient metrics instantly.
+
+a link to the edited Tableau visualization: https://public.tableau.com/app/profile/rugile.ceicyte/viz/DriversofExcellenceinFineChocolate/Dashboard2?publish=yes
