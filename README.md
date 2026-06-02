@@ -1,16 +1,16 @@
 # Capstone Project: Drivers of Excellence in Fine Chocolate Analytics
 
-## 📌 Executive Summary
+##  Executive Summary
 This Capstone Project executes an end-to-end data science analysis of the global chocolate bar ratings dataset (2006–2021) to scientifically isolate the structural and composition-driven parameters that determine superior product quality. 
 
 By translating subjective rating matrices into quantitative, actionable market intelligence, this pipeline provides the Product Development Team and the CEO with data-backed blueprints to optimize international ingredient sourcing, formulation chemistry, and strategic supplier partnerships.
 
-## 📋 Project Context & Business Problem
+##  Project Context & Business Problem
 - **Data Source:** Clickstream expert evaluations from Kaggle (`2,530 rows` across `11 key features`).
 - **Target Audience:** Product Development (Formulation Metrics) and the CEO (Strategic Capital & Sourcing Allocation).
 - **Core Challenge:** The fine chocolate ecosystem is highly saturated; quality perception dictates market differentiation. The goal is to move past anecdotal tasting logs and build statistical validation models defining what criteria guarantee a premier product rating (defined as `Rating >= 3.75`).
 
-## 🛠️ Data Architecture & Core Schema Map
+##  Data Architecture & Core Schema Map
 The data validation framework focuses on target variables mapped against specific feature engineering proxies:
 
 
@@ -23,7 +23,7 @@ The data validation framework focuses on target variables mapped against specifi
 
 ---
 
-## 🔬 Multi-Layered Data Methodology & Techniques
+##  Multi-Layered Data Methodology & Techniques
 
 ### Technique 1: Longitudinal Cohort Analysis (Temporal Trends)
 * **Goal:** Group data inputs into annual review cohorts to monitor shifts in ingredient complexity metrics and measure global preference variances across a 15-year timeline.
@@ -39,7 +39,7 @@ The data validation framework focuses on target variables mapped against specifi
 
 ---
 
-## 💻 Technical Implementation & Production SQL Queries
+##  Technical Implementation & Production SQL Queries
 
 ### 1. Granular Geographic Terroir (Bean Origin) Analytics
 Isolates the top 10 international cocoa bean locations by tracking long-term average ratings filtered for statistical significance (minimum 10 historic reviews globally and 3 reviews per year):
@@ -121,7 +121,7 @@ LIMIT 10;
 
 ---
 
-## 🎨 Visualization Canvas & Deliverables
+##  Visualization Canvas & Deliverables
 - **Dashboard Stack:** Built comprehensive, interactive geographical and categorical scatter matrices within **Tableau**.
 - **Deliverable Target:** Standardized distribution colors and layout alignments to allow C-level executives to dynamically map ingredient metrics instantly.
 
